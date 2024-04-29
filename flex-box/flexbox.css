@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  background-color: blue;
+  /* align-items: stretch; */
+  /* height: 600px; */
+  align-content: space-between;
+}
+
+.flex-container > div {
+  width: 100px;
+  background-color: aliceblue;
+  margin: 10px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 30px;
+}

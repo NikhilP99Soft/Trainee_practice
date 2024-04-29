@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="selectors.css" />
+  </head>
+  <body>
+    <h4>we can divide css selectors in 5 types</h4>
+    <ol>
+      <li>simple selectors(select element based on name,id,class)</li>
+      <li>
+        combinator selector (select elements based on specific relation ship
+        between them)
+      </li>
+      <li>pseudo-class-selector</li>
+      <li>pseudo-element-selector</li>
+      <li>Attribute selectors</li>
+    </ol>
+    <!-- ======================================================================= -->
+    <h1>simple element selectors</h1>
+    <p>
+      using simple selectors every paragraph will be affected of the selected
+      element
+    </p>
+    <p>Me too!</p>
+    <p>And me also</p>
+    <!-- =========================================================================  -->
+    <h2>simple id selectors</h2>
+    <p id="paragraph">I am using the id selectors for this paragraph</p>
+    <!-- ============================================================== -->
+    <h2>class selectors</h2>
+    <p class="center">I am selected from the class</p>
+    <!-- =========================================================== -->
+    <h2>universal selectors</h2>
+    <p>I am universal selectors</p>
+    <!-- ================================================================? -->
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+
+    <h2>combinator selector</h2>
+    <div>
+      <p>this is descendant slector</p>
+      <section><p>this is the descendant of the div</p></section>
+    </div>
+    <!-- ==================================================================== -->
+    <h2>child selector</h2>
+    <div>
+      <p>This is child selector</p>
+      <p>this is direct child</p>
+      <section>
+        <p>this is indirect child or we can say it as the descendant</p>
+      </section>
+    </div>
+  </body>
+</html>

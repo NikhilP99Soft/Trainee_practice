@@ -1,0 +1,33 @@
+/* 
+p {
+  color: red;
+  text-align: center;
+  /* border: 2px solid red; */
+/* }  */
+
+/* 
+#paragraph {
+  color: aqua;
+  text-align: left;
+  border: 2px white solid;
+} */
+
+/* 
+p.center {
+  color: blueviolet;
+} */
+
+/* 
+* {
+  color: brown;
+} */
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* div p {
+  background-color: yellow;
+} */
+
+div > p {
+  background-color: aqua;
+}

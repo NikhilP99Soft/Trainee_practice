@@ -1,0 +1,36 @@
+.container {
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 5px solid black;
+  /* margin-right: 100px; */
+}
+
+img {
+  margin-top: 150px;
+  margin-left: 150px;
+  border-radius: 100px;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.name {
+  margin-top: 300px;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+
+span {
+  margin-left: 145px;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.details {
+  margin-left: 150px;
+  margin-right: 100px;
+  /* padding: 5px; */
+  line-height: 1.6;
+}
