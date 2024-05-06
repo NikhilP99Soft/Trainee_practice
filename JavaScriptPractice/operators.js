@@ -65,9 +65,8 @@ console.log(10 <= comparisonvalue);
 //********************************************************************************** */
 
 //Logical operators
-
-var val1 = 6;
-var val2 = 3;
+let val1 = 6;
+let val2 = 3;
 
 //(&&) and operator
 console.log(val1 < 10 && val2 > 1); //&& logical returns true if both the condition are satisfied.

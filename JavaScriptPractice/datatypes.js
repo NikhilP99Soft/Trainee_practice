@@ -19,11 +19,11 @@
 // var name = "Nikhil Aher";
 
 // 2.string inside the  object
-var name = new String("");
+let name = new String("");
 
 // string is immutabble
 // bcoz it cannot be modified
 
-var city1 = "pune";
-var city2 = "pune";
+let city1 = "pune";
+let city2 = "pune";
 city1 = city1.concat("India");
