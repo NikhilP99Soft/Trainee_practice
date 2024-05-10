@@ -1,0 +1,181 @@
+.sticky_header {
+  height: 70px;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+}
+
+#nicepagelogo {
+  /* position: relative; */
+  /* top: 15px; */
+  vertical-align: middle;
+}
+
+.close_icon {
+  position: relative;
+  top: 5px;
+  right: -1100px;
+}
+
+.responsive_images {
+  position: relative;
+  left: 35%;
+  top: 15px;
+}
+
+.pages_number {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+  top: 0px;
+}
+
+.header_pages {
+  height: 80px;
+  width: 100%;
+  font-size: 18px;
+  /* vertical-align: middle; */
+}
+
+#anch_tag {
+  padding: 8px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#logo_img {
+  position: relative;
+  top: 16px;
+  left: 140px;
+}
+
+.header_tag {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#body_image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 250px;
+  left: 650px;
+  width: 615px;
+}
+
+.content > h1,
+p {
+  color: white;
+}
+
+.header_tag {
+  font-size: 5rem;
+}
+
+.content > p {
+  font-size: 1.25rem;
+  margin: 17px 0;
+  line-height: 1.6rem;
+}
+
+.content > h1 {
+  margin: 30px 0;
+}
+
+.content > button {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 25px 0;
+  height: 30px;
+  width: 150px;
+}
+/* 
+.body_bottom {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: -500px;
+  background-color: black;
+} */
+
+.three_images {
+  position: absolute;
+  top: 750px;
+  left: 200px;
+  display: flex;
+}
+
+.imageone {
+  margin: 40px;
+  border: 20px solid white;
+  border-bottom: 50px solid white;
+}
+
+.imagetwo {
+  margin: 40px;
+  border: 20px solid white;
+  border-bottom: 50px solid white;
+}
+
+.imagethree {
+  margin: 40px;
+  border: 20px solid white;
+  border-bottom: 50px solid white;
+}
+
+.imagesonediv {
+  position: relative;
+}
+
+.imagesonediv > h4 {
+  position: relative;
+  top: -100px;
+  left: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.imagesdivtwo > h4 {
+  position: relative;
+  top: -100px;
+  left: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.imagesdivthree > h4 {
+  position: relative;
+  top: -100px;
+  left: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer1 {
+  height: 150px;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+}
+
+.footer2 {
+  height: 150px;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+}
+
+.footer1 > section {
+  padding: 30px;
+  color: #f2f2f2;
+}
+
+.footer2 > section {
+  /* padding-bottom: 20px; */
+  color: #f2f2f2;
+}
