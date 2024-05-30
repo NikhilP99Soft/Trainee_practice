@@ -32,3 +32,20 @@ function abc() {
 abc();
 
 console.log(c);
+
+const obj = {
+  fname: "Nikhil",
+  lname: "Aher",
+  printfullName: function () {
+    console.log(this.fname + " " + this.lname);
+  },
+};
+
+// obj.printfullName();
+
+const obj2 = {
+  fname: "sachin",
+  lname: "Tendulkar",
+};
+
+obj.printfullName.bind(obj2)();
